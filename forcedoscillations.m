@@ -1,7 +1,7 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%    Project 2   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%  forcedOscillations  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Simulates SHM using four different numerical methods.  The best method,
 % (compared to the analytical solution when F(t) = 0) will be used to
-% solve F(t) =/ 0 (no analytical solution)
+% solve F(t) =/= 0 (no analytical solution)
 
 clear all;
 close all;
