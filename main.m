@@ -1,8 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%    Project 2   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Elliot Goodwin - 9621958
+%%%%%%%%%%%%%%%%%%%%%%%%%% forcedOscillator %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Elliot Goodwin
 % Simulates SHM using four different numerical methods.  The best method,
 % (compared to the analytical solution when F(t) = 0) will be used to
-% solve F(t) =/ 0 (no analytical solution)
+% solve F(t) =/= 0 (no analytical solution)
 
 
 clear all;
@@ -482,19 +482,19 @@ xlim([0, 1.6]);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-saveas(figure(1),'x(t) four integrators','png');
+saveas(figure(1),'x(t)_four_integrators','png');
 saveas(figure(2),'residuals','png');
-saveas(figure(3),'x(t) euler step size','png');
-saveas(figure(4),'E(t) euler step size','png');
-saveas(figure(5),'E(t) four integrators','png');
-saveas(figure(6),'x(v) euler','png');
-saveas(figure(7),'x(v) improved euler','png');
-saveas(figure(8),'x(v) verlet','png');
-saveas(figure(9),'x(v) euler-cromer','png');
-saveas(figure(10),'critical damping','png');
-saveas(figure(11),'instantaneous forcing','png');
-saveas(figure(12),'sinusoidal forcing','png');
-saveas(figure(13),'resonance curve','png');
+saveas(figure(3),'x(t)_euler_step_size','png');
+saveas(figure(4),'E(t)_euler_step_size','png');
+saveas(figure(5),'E(t)_four_integrators','png');
+saveas(figure(6),'x(v)_euler','png');
+saveas(figure(7),'x(v)_improved_euler','png');
+saveas(figure(8),'x(v)_verlet','png');
+saveas(figure(9),'x(v)_euler_cromer','png');
+saveas(figure(10),'critical_damping','png');
+saveas(figure(11),'instantaneous_forcing','png');
+saveas(figure(12),'sinusoidal_forcing','png');
+saveas(figure(13),'resonance_curve','png');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
